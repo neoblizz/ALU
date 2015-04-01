@@ -10,7 +10,7 @@ This specific ALU is able to do the following operations on two 32-bit binary nu
 <li>SLT: Sets the "SLTOut" to either 1 (true) or 0 (false) in this 32-bit number format: {{31{1'b0}}, SLTOut}; depending if the BussA < BussB.</li>
 </ul>
 
-## ALU CONTROLS
+## CONTROLS
 | Ctrl. | Op.  | 
 | ----- | ---- |
 | 00 | Add |
@@ -20,7 +20,16 @@ This specific ALU is able to do the following operations on two 32-bit binary nu
 
 ## FLAGS
 <ul>
-<li>Negative Flag: Set true when the output is negative.</li>
-<li>Overflow Flag: Set true when the operation results in an overflow.</li>
-<li>Zero Flag: Set true when output is zero.</li>
+<li><b>Negative Flag:</b> Set true when the output is negative.</li>
+<li><b>Overflow Flag:</b> Set true when the operation results in an overflow.</li>
+<li><b>Zero Flag:</b> Set true when output is zero.</li>
+</ul>
+
+## HOW TO SIMULATE?
+Simulation for this project is done using <b>Altera's ModelSim</b> and the result is seen in the waves produced by the simulation. To run this project on ModelSim, follow the steps below:
+<ul>
+<li><b>Step 1:</b> Click `Remote_Launch_ModelSim.bat` (version 13.0sp1) or `Launch_ModelSim.bat` (version 14.0) depending on the version of ModelSim you have installed.</li>
+<li><b>Step 2:</b> Once ModelSim is launched, go to File > Change Directory and make sure that you're working in the right project directory.</li>
+<li><b>Step 3:</b> After verifying, type `do runlab.do` in the whitebox at the bottom.</li>
+<li><b>Step 4:</b> Let it compile and run, and it should load the waveforms.</li>
 </ul>
