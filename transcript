@@ -1,0 +1,62 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+cd C:/Users/mosama94/Desktop/ALU
+runlab.do
+# couldn't execute ".\runlab.do": no such file or directory
+cd C:/Users/mosama94/Desktop/ALU
+runlab.do
+# couldn't execute ".\runlab.do": no such file or directory
+run.do
+# invalid command name "run.do"
+run.do
+# invalid command name "run.do"
+runlab.do
+# couldn't execute ".\runlab.do": no such file or directory
+alutest.do
+# couldn't execute ".\alutest.do": no such file or directory
+runlab.do
+# couldn't execute ".\runlab.do": no such file or directory
+run runlab.do
+# No Design Loaded!
+run runlab.do
+# No Design Loaded!
+run runlab.do
+# No Design Loaded!
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu
+# -- Compiling module adder
+# -- Compiling module adder32
+# -- Compiling module ALUStimulus
+# 
+# Top level modules:
+# 	adder32
+# 	ALUStimulus
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux2to1
+# -- Compiling module f2oMux
+# -- Compiling module s2oMux
+# -- Compiling module mux30_2to1
+# -- Compiling module mux32_2to1
+# -- Compiling module t2oMux
+# -- Compiling module mux32_4to32
+# -- Compiling module t2t2tot2Mux
+# 
+# Top level modules:
+# 	mux30_2to1
+# 	mux32_2to1
+# 	mux32_4to32
+# 	t2t2tot2Mux
+# vsim -lib work -voptargs=\"+acc\" -t 1ps ALUStimulus 
+# Loading sv_std.std
+# Loading work.ALUStimulus
+# Loading work.alu
+# Loading work.mux2to1
+# Loading work.adder
+# Loading work.mux32_4to32
+# Loading work.f2oMux
+# WARNING: No extended dataflow license exists
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree

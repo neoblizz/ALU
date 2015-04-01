@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at alu.sv(8): object "CarryOut" differs only in case from object "CARRYOUT" in the same scope
